@@ -1,5 +1,8 @@
 // API 기본 설정
-export const API_BASE_URL = 'http://172.16.88.105:8080';
+export const API_BASE_URL =
+  typeof window !== 'undefined' && window.location.hostname !== 'localhost'
+    ? 'https://api.sejong-hackathon.com'
+    : 'http://localhost:8080';
 
 // API 응답 타입 정의
 export interface ApiResponse<T = any> {
