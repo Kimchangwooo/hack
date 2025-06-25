@@ -1,5 +1,5 @@
 // API 기본 설정
-export const API_BASE_URL = 'http://172.16.88.105:8080';
+export const API_BASE_URL = 'https://172.16.88.105:8443';
 
 // API 응답 타입 정의
 export interface ApiResponse<T = any> {
