@@ -7,7 +7,23 @@ function TestApiButton() {
     const result = await getAllUsers();
     alert(JSON.stringify(result, null, 2));
   };
-  return <button onClick={handleClick} style={{margin: 16, padding: 8, background: '#007bff', color: 'white', border: 'none', borderRadius: 4}}>API 통신 테스트</button>;
+  return (
+    <button
+      onClick={handleClick}
+      style={{
+        margin: 16,
+        padding: 8,
+        background: 'white',
+        color: 'white',
+        border: 'none',
+        borderRadius: 4,
+        boxShadow: 'none',
+        outline: 'none',
+      }}
+    >
+      API 통신 테스트
+    </button>
+  );
 }
 
 export default function App() {
