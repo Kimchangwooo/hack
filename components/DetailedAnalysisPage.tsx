@@ -168,7 +168,6 @@ export function DetailedAnalysisPage({ onBack, uploadedFileName, uploadedResumeD
                   <p className="text-gray-600">상위 22% 수준의 우수한 이력서입니다</p>
                 </div>
               </div>
-              
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center">
                   <div className="text-2xl font-bold text-blue-600">92%</div>
