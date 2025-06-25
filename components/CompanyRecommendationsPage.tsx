@@ -25,12 +25,6 @@ export function CompanyRecommendationsPage({ onBack, uploadedFileName, uploadedR
     { id: 1, name: '삼성전자', logo: '', matchRate: 40.56, position: '', location: '', employees: '', industry: '', salaryRange: '', benefits: [], requirements: [], description: '', whyRecommended: '' },
     { id: 2, name: 'SK하이닉스', logo: '', matchRate: 26.06, position: '', location: '', employees: '', industry: '', salaryRange: '', benefits: [], requirements: [], description: '', whyRecommended: '' },
     { id: 3, name: 'SK이노베이션', logo: '', matchRate: 23.51, position: '', location: '', employees: '', industry: '', salaryRange: '', benefits: [], requirements: [], description: '', whyRecommended: '' },
-    { id: 4, name: 'LG전자', logo: '', matchRate: 4.75, position: '', location: '', employees: '', industry: '', salaryRange: '', benefits: [], requirements: [], description: '', whyRecommended: '' },
-    { id: 5, name: '현대자동차', logo: '', matchRate: 2.42, position: '', location: '', employees: '', industry: '', salaryRange: '', benefits: [], requirements: [], description: '', whyRecommended: '' },
-    { id: 6, name: '롯데', logo: '', matchRate: 1.59, position: '', location: '', employees: '', industry: '', salaryRange: '', benefits: [], requirements: [], description: '', whyRecommended: '' },
-    { id: 7, name: 'KT', logo: '', matchRate: 0.57, position: '', location: '', employees: '', industry: '', salaryRange: '', benefits: [], requirements: [], description: '', whyRecommended: '' },
-    { id: 8, name: '포스코', logo: '', matchRate: 0.38, position: '', location: '', employees: '', industry: '', salaryRange: '', benefits: [], requirements: [], description: '', whyRecommended: '' },
-    { id: 9, name: 'CJ', logo: '', matchRate: 0.17, position: '', location: '', employees: '', industry: '', salaryRange: '', benefits: [], requirements: [], description: '', whyRecommended: '' },
   ];
 
   const getMatchRateColor = (rate: number) => {
