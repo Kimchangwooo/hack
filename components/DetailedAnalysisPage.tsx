@@ -79,33 +79,33 @@ export function DetailedAnalysisPage({ onBack, uploadedFileName, uploadedResumeD
     },
     {
       id: 2,
-      name: 'LG전자',
+      name: 'SK하이닉스',
       logo: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=100&h=100&fit=crop&crop=center',
       successRate: 34.69,
-      position: '서버 개발자',
+      position: 'UI/UX 개발자',
       location: '서울, 영등포구',
       employees: '75,000명',
       industry: '전자/가전',
       salaryRange: '₩42,000,000 - ₩58,000,000',
       benefits: ['4대보험', '연금', '상여금', '건강검진'],
-      requirements: ['Java', 'Spring', 'MySQL'],
-      description: '스마트 가전과 연결되는 IoT 백엔드 시스템을 개발하는 역할입니다.',
-      whyRecommended: '귀하의 서버 개발 경험과 데이터베이스 역량이 LG전자의 IoT 플랫폼 개발에 적합합니다.'
+      requirements: ['React', 'TypeScript', 'UI/UX 디자인'],
+      description: '사용자 중심의 혁신적인 인터페이스를 설계하고 개발하는 역할입니다.',
+      whyRecommended: '귀하의 UI/UX 개발 경험과 TypeScript 역량이 SK하이닉스의 스마트 가전 플랫폼 개발에 적합합니다.'
     },
     {
       id: 3,
-      name: '네이버',
+      name: 'SK이노베이션',
       logo: 'https://images.unsplash.com/photo-1611605698335-8b1569810432?w=100&h=100&fit=crop&crop=center',
       successRate: 10.06,
-      position: 'Backend Engineer',
+      position: 'Frontend Engineer',
       location: '경기, 분당구',
       employees: '3,600명',
       industry: 'IT서비스',
       salaryRange: '₩50,000,000 - ₩70,000,000',
       benefits: ['4대보험', '연금', '상여금', '스톡옵션', '자기계발비'],
-      requirements: ['Java', 'Spring Boot', 'MySQL', 'Redis'],
-      description: '수억 명이 사용하는 서비스의 백엔드를 개발하고 최적화합니다.',
-      whyRecommended: '귀하의 대용량 트래픽 처리 경험과 시스템 최적화 역량이 네이버의 요구사항과 일치합니다.'
+      requirements: ['JavaScript', 'React', 'Node.js'],
+      description: '수억 명이 사용하는 서비스의 프론트엔드를 개발하고 최적화합니다.',
+      whyRecommended: '귀하의 성능 최적화 경험과 대규모 서비스 개발 역량이 SK이노베이션의 요구사항과 일치합니다.'
     }
   ];
 
@@ -404,11 +404,11 @@ export function DetailedAnalysisPage({ onBack, uploadedFileName, uploadedResumeD
                         <Badge className="bg-green-100 text-green-800">추천</Badge>
                       </div>
                       <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
-                        <span className="font-medium">LG전자</span>
+                        <span className="font-medium">SK하이닉스</span>
                         <Badge className="bg-green-100 text-green-800">추천</Badge>
                       </div>
                       <div className="flex justify-between items-center p-3 bg-blue-50 rounded-lg">
-                        <span className="font-medium">네이버</span>
+                        <span className="font-medium">SK이노베이션</span>
                         <Badge className="bg-blue-100 text-blue-800">가능</Badge>
                       </div>
                     </div>

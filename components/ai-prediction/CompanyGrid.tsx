@@ -31,8 +31,8 @@ const companies: Company[] = [
   },
   {
     id: 2,
-    name: "LG전자",
-    position: "소프트웨어 개발자",
+    name: "SK하이닉스",
+    position: "UI/UX 개발자",
     successRate: 34.69,
     expectedSalary: "5,200만원",
     location: "서울, 평택",
@@ -43,8 +43,8 @@ const companies: Company[] = [
   },
   {
     id: 3,
-    name: "네이버",
-    position: "웹 개발자",
+    name: "SK이노베이션",
+    position: "Frontend Engineer",
     successRate: 10.06,
     expectedSalary: "5,800만원",
     location: "분당, 춘천",
